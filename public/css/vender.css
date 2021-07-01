@@ -1,0 +1,44 @@
+.panelvender{   
+    padding-top: 15px;
+}
+
+.panelvender h1{
+    text-align: center;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.contenedor{
+    position: absolute;
+    padding: 20px 0px;
+    width: 40%;
+    height: 35%;
+    left: 38%;
+    text-align: center;
+}
+
+.campo{
+    position: absolute;
+    top: 60%;
+    max-width: 85%;
+}
+.botones{
+    margin-top: 5px;
+    position: absolute;
+    top: 70%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.regresar a{
+    text-decoration: none;
+    color: white
+}

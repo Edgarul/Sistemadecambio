@@ -1,0 +1,18 @@
+<section>
+    <div class="contenedor">
+        <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+            <div class="card-header"><%-letrero%></div>
+            <div class="card-body">
+                <h3 class="card-title"> <%- pesosadar %></h3>
+            </div>
+        </div>
+    </div>
+    <form action="/tvender" method="post">
+        <input name="pesosA" class="form-control campo col-12" type="text" placeholder="<%-letrero2%>">
+        <div class="botones">
+            <button class=" col-4 regresar btn-dark"> <a class="regresar" href="/">Regresar</a></button>
+            <button class="col-4 submit btn-dark">Realizar transaccion</button>
+        </div>
+    </form>
+
+</section>

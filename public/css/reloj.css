@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.wrap{
+    left: 61%;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.widget{
+    width: 40%;
+    margin: .5em;
+}
+
+.widget p{
+    display: inline-block;
+    line-height: 0.2em;
+    color: white;
+}
+
+.fecha{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: .9em;
+    margin-bottom: 0.3125rem;
+
+    background: rgba(0,0,0,.5);
+    padding: 15px;
+    width: 100%;
+}
+
+.reloj{
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: 1em;
+    background: rgba(0,0,0,.5);
+    width: 100%;
+}
+
+.reloj .caja-segundos{
+    display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm{
+    font-size: 0.7rem;
+    display: block;
+}

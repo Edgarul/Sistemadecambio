@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/dollars-499481.jpg");
+    background-size: cover;
+    
+}
+main{
+    padding-top: 90px;
+}
+
+.actuales{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    background-color: gray;
+    overflow: hidden;
+
+}
+
+.actuales .dolar{
+    overflow: hidden;
+    border-radius: 30px;
+    border: solid 2px black;
+    overflow: hidden;
+}
+
+.actuales .pesos{
+    overflow: hidden;
+    border-radius: 30px;
+    border: solid 2px black;
+    overflow: hidden;
+
+}
+
+.actuales h1{
+    background-color: gray;
+    padding: 0 20px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 0 0 20px #85BB65;
+    overflow: hidden;
+}
+
+.actuales h1:after{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    z-index: -1;
+    overflow: hidden;
+
+
+}
+
+.letrasNotFound{
+    background-color: #fff;
+    text-align: center;
+}
+
